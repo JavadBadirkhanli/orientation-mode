@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity implements StorageFragment.T
         if (mTaskFragment.getData() != null) {
             Log.d(TAG, "onCreate: size of data: " + mTaskFragment.getData().size());
             groupList.addAll(mTaskFragment.getData());
-
             adapter = new ExpandableGroupsAdapter(MainActivity.this, groupList);
             recyclerView.setAdapter(adapter);
         }
