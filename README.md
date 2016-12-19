@@ -6,3 +6,5 @@ Because, when orientation changes, Activities relaunches, and all of operations 
 This source will help you save instances of activity or fragment and get saved data without restarting. 
 And also, without forcing activity with this code in manifest file:
 "activity name= ".YourActivity" android:configChanges="orientation|screenSize" "
+
+This is testing for new Branch! 
